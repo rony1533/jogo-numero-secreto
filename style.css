@@ -61,3 +61,7 @@ h3 {
     background-color: var(--secondary-color);
     transition: 5ms;
 }
+
+.info {
+    margin-top: 10px;
+}
