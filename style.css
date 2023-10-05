@@ -3,6 +3,7 @@
 :root {
     --font-family: 'Dosis', sans-serif;
     --bg-color: #8EACCD;
+    --bg-color-success: #5baf5d;
     --primary-color: #D2E0FB;
     --secondary-color: #bac6dd;
 }
@@ -18,6 +19,10 @@ body {
     text-align: center;
     margin: 0;
     font-family: var(--font-family);
+}
+
+.success {
+    background-color: var(--bg-color-success);
 }
 
 h1 {

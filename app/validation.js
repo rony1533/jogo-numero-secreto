@@ -21,7 +21,7 @@ function verificationIfAnswerHaveValidValue(answer) {
             <button id="playAgain" class="btn-play">Jogar novamente</button>
         `;
         accurate = true;
-
+        document.body.className = 'success';
     } else if (number > secretNumber) {
         elementAnswer.innerHTML += `
             <div>O número secreto é menor <i class="fa-solid fa-square-caret-down"></i></div>
