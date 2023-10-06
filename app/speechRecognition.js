@@ -22,4 +22,8 @@ function showAnswerOnScreen(answer) {
   `
 }
 
-recognition.addEventListener('end', () => recognition.start());
+recognition.addEventListener('end', () => {
+  if (!accurate) {
+    recognition.start()
+  }
+});
