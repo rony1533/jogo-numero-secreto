@@ -24,7 +24,7 @@ function verificationIfAnswerHaveValidValue(answer) {
 
     } else if (number > secretNumber) {
         elementAnswer.innerHTML += `
-            <div>O número secreto é maior <i class="fa-solid fa-square-caret-down"></i></div>
+            <div>O número secreto é menor <i class="fa-solid fa-square-caret-down"></i></div>
         `;
     } else {
         elementAnswer.innerHTML += `
