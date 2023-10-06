@@ -1,3 +1,5 @@
+var accurate = false;
+
 function verificationIfAnswerHaveValidValue(answer) {
     const number = +answer;
 
@@ -18,7 +20,8 @@ function verificationIfAnswerHaveValidValue(answer) {
 
             <button id="playAgain" class="btn-play">Jogar novamente</button>
         `;
-        
+        accurate = true;
+
     } else if (number > secretNumber) {
         elementAnswer.innerHTML += `
             <div>O número secreto é maior <i class="fa-solid fa-square-caret-down"></i></div>
